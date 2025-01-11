@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Bull Racing Careers</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #101820;
+            color: #FFFFFF;
+        }
+
+        header {
+            background-color: #060606;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #202020;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border: 2px solid transparent;
+            transition: all 0.3s;
+        }
+
+        nav a:hover {
+            border-color: #FFD700;
+            border-radius: 5px;
+        }
+
+        .hero {
+            background-image: url('./img/rb20\(1\).jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 100px 20px;
+            color: #FFFFFF;
+        }   
+
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 8px #000000;
+        }
+
+        .content {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .content h3 {
+            color: #FFD700;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .job-listing {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .job-card {
+            background-color: #303030;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .job-card h4 {
+            margin: 0 0 10px;
+            color: #FFD700;
+        }
+
+        .job-card p {
+            margin: 0 0 10px;
+        }
+
+        .job-card a {
+            display: inline-block;
+            background-color: #FFD700;
+            color: #000000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .job-card a:hover {
+            background-color: #FFC700;
+        }
+
+        footer {
+            background-color: #060606;
+            color: #CCCCCC;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Join Red Bull Racing</h1>
+        <p>Fuel Your Passion for Speed and Excellence</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#jobs">Careers</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>Your Career in the Fast Lane</h2>
+        <p>Explore exciting opportunities to be part of the world’s fastest team.</p>
+    </section>
+    <section class="content" id="about">
+        <h3>About Red Bull Racing</h3>
+        <p>At Red Bull Racing, we push boundaries both on and off the track. Our team is driven by innovation, precision, and the relentless pursuit of excellence. Join us in creating history and shaping the future of Formula 1.</p>
+    </section>
+    <section class="content" id="jobs">
+        <h3>Current Opportunities</h3>
+        <div class="job-listing">
+            <div class="job-card">
+                <h4>Software Engineer</h4>
+                <p>Design and develop innovative solutions to enhance our racing performance.</p>
+                <a href="#">Apply Now</a>
+            </div>
+            <div class="job-card">
+                <h4>Aerodynamics Specialist</h4>
+                <p>Collaborate with our engineering team to refine our car's performance.</p>
+                <a href="#">Apply Now</a>
+            </div>
+            <div class="job-card">
+                <h4>Data Analyst</h4>
+                <p>Analyze race data and provide actionable insights for the team.</p>
+                <a href="#">Apply Now</a>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <p>© 2025 Red Bull Racing | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

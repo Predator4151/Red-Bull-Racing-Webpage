@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <style>
+   .animated-background {
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/red_bull_rb18_2022_formula_1_4k-3840x2160.jpg'); /* Initial background image */
+    animation: changeBackground 5s forwards; /* 2.5 seconds duration */
+}
+
+@keyframes changeBackground {
+    0% {
+        background-image: url('./img/red_bull_rb18_2022_formula_1_4k-3840x2160.jpg');
+        height: 600px;
+    }
+    100% {
+        background-image: url('./img/final.jpg'); 
+        height: 600px;/* Stop here */
+        background-repeat: no-repeat;
+    }
+}
+body{
+    background-color:rgba(192, 192, 192, 0.966)
+}
+li{
+    display:inline;
+    padding-left:105px;
+    font-size: 33px;
+    list-style-type: none;
+
+}
+li:hover{
+                font-size: 35px;
+
+            }
+a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.822);
+    font-family:broadway;
+}
+@import url('https://fonts.cdnfonts.com/css/broadway');
+a:hover{
+    color: rgba(4, 5, 66, 0.945);
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="animated-background"></div>
+      <ul> <li> <a href="https://www.redbullracing.com/int-en" target="e">🏎️</a></li>
+            <li><a href="./Login.html" target="a">Login</a>  </li><li><a href="./signup.html" target="a">Register</a></li><li>  <a href="./racedetails.html">Race Details</a></li><li>  <a href="./careers.html">Careers</a> </li><li> <a href="./about us.html">About Us</a></li>
+        </ul>
+    
+        
+    </body>
+</html>
